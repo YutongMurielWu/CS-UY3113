@@ -1,0 +1,8 @@
+C:\Users\Murie\Documents\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\Documents\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 3\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 3\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\Documents\CS-UY3113\P1\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\Documents\CS-UY3113\P1\SDLProject\Debug\SDLProject.pdb
