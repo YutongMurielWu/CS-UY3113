@@ -13,20 +13,21 @@
 
 SDL_Window* displayWindow;
 bool gameIsRunning = true;
+bool gameStarts = false;
 bool gameOver();
 
 ShaderProgram program;
 glm::mat4 viewMatrix, ballMatrix, projectionMatrix, player1Matrix, player2Matrix;
 
 glm::vec3 ball_position = glm::vec3(0, 0, 0);
-glm::vec3 ball_movement = glm::vec3(-2, 1, 0);
+glm::vec3 ball_movement = glm::vec3(0, 0, 0);
 glm::vec3 player1_position = glm::vec3(-5, 0, 0);
 glm::vec3 player1_movement = glm::vec3(0, 0, 0);
 glm::vec3 player2_position = glm::vec3(5, 0, 0);
 glm::vec3 player2_movement = glm::vec3(0, 0, 0);
 
-float player_speed = 4.0f;
-float ball_speed = 1.5f;
+float player_speed = 5.0f;
+float ball_speed = 3.0f;
 float pw = 0.5f, ph = 2.0f;
 float bw = 0.5f, bh = 0.5f;
 
@@ -71,6 +72,16 @@ void ProcessInput() {
         case SDL_WINDOWEVENT_CLOSE:
             gameIsRunning = false;
             break;
+        case SDL_KEYDOWN:
+            switch (event.key.keysym.sym) {
+            case SDLK_SPACE:
+                if (!gameStarts) {
+                    gameStarts = true;
+                    ball_movement.x = 0.8f;
+                    ball_movement.y = 1.0f;
+                    break;
+                }
+            }
         }
     }
 
@@ -157,8 +168,7 @@ void Update() {
 
     paddleMeetsWall();
     ballMeetsWall();
-    ballMeetsPaddle();
-
+    
     // Add (direction * units per second * elapsed time)
     player1_position += player1_movement * player_speed * deltaTime;
     player2_position += player2_movement * player_speed * deltaTime;
@@ -171,12 +181,13 @@ void Update() {
     player1Matrix = glm::scale(player1Matrix, glm::vec3(1.0f, 4.0f, 1.0f));
     player2Matrix = glm::scale(player2Matrix, glm::vec3(1.0f, 4.0f, 1.0f));
 
+    ballMeetsPaddle();
+
     if (gameOver()) {
         //gameIsRunning = false;
-        player1_movement = glm::vec3(0);
-        player2_movement = glm::vec3(0);
         ball_movement = glm::vec3(0);
     }
+    
 }
 
 
