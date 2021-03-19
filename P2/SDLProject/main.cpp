@@ -11,6 +11,7 @@
 #include "glm/gtc/matrix_transform.hpp"
 #include "ShaderProgram.h"
 
+
 SDL_Window* displayWindow;
 bool gameIsRunning = true;
 bool gameStarts = false;
@@ -30,6 +31,7 @@ float player_speed = 5.0f;
 float ball_speed = 3.0f;
 float pw = 0.5f, ph = 2.0f;
 float bw = 0.5f, bh = 0.5f;
+
 
 void Initialize() {
     SDL_Init(SDL_INIT_VIDEO);
@@ -207,6 +209,7 @@ void Render() {
 
     program.SetModelMatrix(player1Matrix);
     glDrawArrays(GL_TRIANGLES, 0, 6);
+
     glDisableVertexAttribArray(program.positionAttribute);
 
     SDL_GL_SwapWindow(displayWindow);
