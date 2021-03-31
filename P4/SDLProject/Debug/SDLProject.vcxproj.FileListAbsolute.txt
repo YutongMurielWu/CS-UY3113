@@ -1,0 +1,16 @@
+C:\Users\Murie\Documents\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\Documents\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 3\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 3\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 4\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 4\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 5\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 5\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 6\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 6\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 8\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\OneDrive\文档\Spring2021\Game Programming\Week 8\SDLProject\Debug\SDLProject.pdb
+C:\Users\Murie\Documents\CS-UY3113\P4\SDLProject\Debug\SDLProject.exe
+C:\Users\Murie\Documents\CS-UY3113\P4\SDLProject\Debug\SDLProject.pdb
